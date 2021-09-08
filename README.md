@@ -26,7 +26,7 @@
 - Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a> 
 
 ## Loss Values
--Trained for 20 epochs
+-Loss results after 20 epochs
 
 ![rates](https://user-images.githubusercontent.com/54573938/132588090-04f81bc1-db07-4cf2-b0c8-82674701b1b4.JPG)
 
