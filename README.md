@@ -14,11 +14,8 @@
 - I used dual monitors with a game playing at a 566 X 518 resolution on one screen.
 - Since the edges of the road were pretty obvious, downsizing the grabbed screen, converting to gray and using Canny edge detection was enough to reach an average result.
 
-## Train
-- Use the file called training.py
-- Point it at your image directory
 
-## Inputs (Observations)
+## Inputs
 - Uses inputs to the neural network (Observations) of pixes in the game.
 - 84 X 84
 
