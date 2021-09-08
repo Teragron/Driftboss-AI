@@ -6,7 +6,7 @@
 
 # The Game
 - Driftboss is a 3D endless runner arcade racing game
-- Only control is the "Space" key
+- Only control is the "Space" key which turns the car to the right
 ![Driftboss](https://user-images.githubusercontent.com/54573938/132589747-d66137e6-7765-4c7d-a8a9-1de592f59e66.JPG)
 
 
