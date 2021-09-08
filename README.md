@@ -21,10 +21,6 @@
 - Use the file called training.py
 - Point it at your image directory
 
-## Run Agents
-- Trained Agent is TrainedAgent.py
-- You will have to load in the pkl created from training.
-
 ## Inputs (Observations)
 - Uses inputs to the neural network (Observations) of pixes in the game.
 - 84 X 84
