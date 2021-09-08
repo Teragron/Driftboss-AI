@@ -1,4 +1,4 @@
-The original and the more helpful Repository is "ClarityCoders/Fall-Guys-AI"
+# This is only a forked repository from ClarityCoders/Fall-Guys-AI and it is used to show results for another game
 
 <a href="https://youtu.be/GS_0ZKzrvk0" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
 # Python / FastAI CNN - Playing Driftboss
