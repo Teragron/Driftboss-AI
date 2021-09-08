@@ -23,20 +23,21 @@
 - YouTube <a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders</a>
 - Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a> 
 
+## Learning Rate
+- To get better results from training, the Learning Rate is set to 10^-1 based on the LR_Graph
+![lr](https://user-images.githubusercontent.com/54573938/132587952-963b3412-5ae3-42e3-94fc-2bafa30e9fe1.JPG)
+
 ## Loss Values
 - Loss results after 20 epochs
 
 ![rates](https://user-images.githubusercontent.com/54573938/132588090-04f81bc1-db07-4cf2-b0c8-82674701b1b4.JPG)
-
-## Learning Rate
-- To get better results from training, the Learning Rate is set to 10^-1 based on the LR_Graph
-![lr](https://user-images.githubusercontent.com/54573938/132587952-963b3412-5ae3-42e3-94fc-2bafa30e9fe1.JPG)
 
 ## Confusion Matrix
 - Trained with 26k Samples with some opencv filters to make the training process easier
 
 ![confusion_matrix](https://user-images.githubusercontent.com/54573938/132587594-20e7747c-4ab9-4994-863e-00b5beb06e29.JPG)
 ## Results
+- My personal score was 700.
 - As it can be seen from Excel Datasheet, the network does not give convincing scores.
 ![excel](https://user-images.githubusercontent.com/54573938/132591690-36f1f8f8-d588-46e2-9399-d16d40c571f6.JPG)
 
