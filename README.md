@@ -5,8 +5,8 @@
 > The network was then trained using the FastAI Libary. 
 
 # The Game
-- Driftboss is a 3D endless runner arcade racing game
-- Only control is the "Space" key which turns the car to the right
+- Driftboss is a 3D endless runner arcade racing game.
+- Only control is the "Space" key which turns the car to the right.
 ![Driftboss](https://user-images.githubusercontent.com/54573938/132589747-d66137e6-7765-4c7d-a8a9-1de592f59e66.JPG)
 
 
@@ -28,12 +28,12 @@
 ![lr](https://user-images.githubusercontent.com/54573938/132587952-963b3412-5ae3-42e3-94fc-2bafa30e9fe1.JPG)
 
 ## Loss Values
-- Loss results after 20 epochs
+- Loss results after 20 epochs.
 
 ![rates](https://user-images.githubusercontent.com/54573938/132588090-04f81bc1-db07-4cf2-b0c8-82674701b1b4.JPG)
 
 ## Confusion Matrix
-- Trained with 26k Samples with some opencv filters to make the training process easier
+- Trained with 26k Samples with some opencv filters to make the training process easier.
 
 ![confusion_matrix](https://user-images.githubusercontent.com/54573938/132587594-20e7747c-4ab9-4994-863e-00b5beb06e29.JPG)
 ## Results
@@ -41,5 +41,9 @@
 - As it can be seen from Excel Datasheet, the network does not give convincing scores.(The Epoch here means game)
 ![excel](https://user-images.githubusercontent.com/54573938/132591690-36f1f8f8-d588-46e2-9399-d16d40c571f6.JPG)
 
-- The Score has been calculated with (Average of 10 Games)/(Standart Deviation)
+- The Score has been calculated with (Average of 10 Games)/(Standart Deviation).
 ![image](https://user-images.githubusercontent.com/54573938/132591091-9680fa04-1a48-475d-8cf3-183f8b4e1b9d.png)
+
+## Conclusion
+- Displaying the detected edges and adding the distance between the detected edge and the center of the car and using this as another parameter may give better results.
+- Due to the delay in response during data creation, the corresponding frame can be labeled incorrectly.
