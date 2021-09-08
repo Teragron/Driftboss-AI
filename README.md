@@ -12,10 +12,7 @@
 
 ## Setup
 - I used dual monitors with a game playing at a 566 X 518 resolution on one screen.
-- You can start data collection by running CreateData.py
-- Pressing B will start the screen / key grab. These will be stored in lists until the episode is done.
-- Once the episode ( Round ) ends pressing h will stop the screen / key grab process and all data will be moved to a numpy array.
-- Then I used a script in util folder called CreateImages.py to put then onto a disk drive in folders corresponding to their actions.
+- Since the edges of the road were pretty obvious, downsizing the grabbed screen, converting to gray and using Canny edge detection was enough to reach an average result.
 
 ## Train
 - Use the file called training.py
