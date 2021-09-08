@@ -38,4 +38,5 @@
 
 ## Confusion Matrix
 - Trained with 26k Samples with some opencv filters to make the training process easier
+
 ![confusion_matrix](https://user-images.githubusercontent.com/54573938/132587594-20e7747c-4ab9-4994-863e-00b5beb06e29.JPG)
