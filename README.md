@@ -6,7 +6,9 @@
 
 # The Game
 - Driftboss is a 3D endless runner arcade racing game
-- The control is carried out only by "Space"
+- The control is carried out by "Space"
+![Driftboss](https://user-images.githubusercontent.com/54573938/132589747-d66137e6-7765-4c7d-a8a9-1de592f59e66.JPG)
+
 
 ## Setup
 - I used dual monitors with a game playing at a 566 X 518 resolution on one screen.
@@ -24,7 +26,7 @@
 - You will have to load in the pkl created from training.
 
 ## Inputs (Observations)
-- Uses inputs to the nural network (Observations) of pixes in the game.
+- Uses inputs to the neural network (Observations) of pixes in the game.
 - 84 X 84
 
 ## Contact!
