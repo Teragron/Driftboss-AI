@@ -1,3 +1,5 @@
+The original and the more helpful Repository is "ClarityCoders/Fall-Guys-AI"
+
 <a href="https://youtu.be/GS_0ZKzrvk0" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
 # Python / FastAI CNN - Playing Driftboss
 > The network was then trained using the FastAI Libary. 
