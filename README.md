@@ -1,6 +1,5 @@
 <a href="https://youtu.be/GS_0ZKzrvk0" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
-# Python / FastAI CNN - Playing Fall Guys
-> This code was used to gather and process data while playing the game Fall Guys.
+# Python / FastAI CNN - Playing Driftboss
 > The network was then trained using the FastAI Libary. 
 
 ## Setup
@@ -24,7 +23,16 @@
 
 ## Contact!
 - YouTube <a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders</a>
-- Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a>
+- Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a> 
 
+## Loss Values
+- Trained for 20 Epoch
+![rates](https://user-images.githubusercontent.com/54573938/132588090-04f81bc1-db07-4cf2-b0c8-82674701b1b4.JPG)
 
+## Learning Rate
+- To get better results from training, the Learning Rate is set to 10^-1 based on the LR_Graph
+![lr](https://user-images.githubusercontent.com/54573938/132587952-963b3412-5ae3-42e3-94fc-2bafa30e9fe1.JPG)
 
+## Confusion Matrix
+- Trained with 26k Samples with some opencv filters to make the training process easier
+![confusion_matrix](https://user-images.githubusercontent.com/54573938/132587594-20e7747c-4ab9-4994-863e-00b5beb06e29.JPG)
