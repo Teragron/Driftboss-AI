@@ -4,6 +4,10 @@
 # Python / FastAI CNN - Playing Driftboss
 > The network was then trained using the FastAI Libary. 
 
+# The Game
+- Driftboss is a 3D endless runner arcade racing game
+- The control is carried out only by "Space"
+
 ## Setup
 - I used dual monitors with a game playing at a 566 X 518 resolution on one screen.
 - You can start data collection by running CreateData.py
