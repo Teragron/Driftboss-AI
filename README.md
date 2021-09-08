@@ -39,3 +39,9 @@
 - Trained with 26k Samples with some opencv filters to make the training process easier
 
 ![confusion_matrix](https://user-images.githubusercontent.com/54573938/132587594-20e7747c-4ab9-4994-863e-00b5beb06e29.JPG)
+## Results
+- As it can be seen from Excel Datasheet, the network does not give convincing scores.
+![excel](https://user-images.githubusercontent.com/54573938/132591690-36f1f8f8-d588-46e2-9399-d16d40c571f6.JPG)
+
+- The Score has been calculated with (Average of 10 Games)/(Standart Deviation)
+![image](https://user-images.githubusercontent.com/54573938/132591091-9680fa04-1a48-475d-8cf3-183f8b4e1b9d.png)
