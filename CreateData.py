@@ -6,10 +6,33 @@ import os
 from utils.grabscreen import grab_screen
 from utils.getkeys import key_check
 
+file_name = "Datas/training_data.npy"
+file_name2 = "Datas/target_data.npy"
 
-file_name = "C:/Users/programmer/Desktop/FallGuys/data/training_data.npy"
-file_name2 = "C:/Users/programmer/Desktop/FallGuys/data/target_data.npy"
 
+w = [1, 0, 0, 0, 0]
+a = [0, 1, 0, 0, 0]
+s = [0, 0, 1, 0, 0]
+d = [0, 0, 0, 1, 0]
+
+space = [0,0,0,0,1]
+
+
+def keys_to_output(keys):
+
+    output = [0, 0, 0, 0, 0]
+
+    if 'W' in keys:
+        output = w
+    elif 'A' in keys:
+        output = a
+    elif 'S' in keys:
+        output = s
+    elif 'D' in keys:
+        output = d
+    elif " " in keys:
+        output= space
+    return output
 
 def get_data():
 
@@ -37,31 +60,32 @@ while True:
         print("Starting")
         break
 
-
 count = 0
 while True:
     count +=1
     last_time = time.time()
-    image = grab_screen(region=(50, 100, 799, 449))
+    image = grab_screen(region=(50, 130, 500, 520))
     image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    image = cv2.Canny(image, threshold1=119, threshold2=250)
+    image = cv2.Canny(image, threshold1=200, threshold2=400)
 
-    image = cv2.resize(image, (224, 224))
+    image = cv2.resize(image, (84, 84))
 
-    # Debug line to show image
     cv2.imshow("AI Peak", image)
     cv2.waitKey(1)
 
-    # Convert to numpy array
     image = np.array(image)
     image_data.append(image)
-
+    output = keys_to_output(keys)
     keys = key_check()
     targets.append(keys)
     if keys == "H":
+        cv2.destroyAllWindows() 
         break
-
-    print('loop took {} seconds'.format(time.time()-last_time))
+    
+    tim = time.time()-last_time
+    print(1/tim)
+    print(output)
+    print(keys)
 
 save_data(image_data, targets)
