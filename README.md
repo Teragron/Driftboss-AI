@@ -39,6 +39,7 @@
 ## Results
 - My personal score was 700.
 - As it can be seen from Excel Datasheet, the network does not give convincing scores.
+- 
 - (The Epoch here means round ofgame)
 ![excel](https://user-images.githubusercontent.com/54573938/132591690-36f1f8f8-d588-46e2-9399-d16d40c571f6.JPG)
 
